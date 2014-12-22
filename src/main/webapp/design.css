@@ -1,0 +1,50 @@
+body{
+    font:14px  sans-serif;
+    color: #688242;
+    text-align:center;
+}
+ 
+nav{
+    display:inline-block;
+    background-color:#6678f4;
+    border-radius:5px;
+}
+ 
+nav a{
+    display:inline-block;
+    padding: 10px 34px;
+    color:#fefefe;
+    font-size:14px;
+    text-decoration:none;
+}
+ 
+nav a:first-child{
+    border-radius:5px 0 0 5px;
+}
+ 
+nav a:last-child{
+    border-radius:0 5px 5px 0;
+}
+ 
+nav.home .home,
+nav.products .products,
+nav.services .services,
+nav.about .about,
+nav.contact .contact{
+    background-color:#343212;
+}
+ 
+p{
+    font-size:20px;
+    font-weight:bold;
+    color:#7d9098;
+}
+ 
+p b{
+    color:#ffffff;
+    display:inline-block;
+    padding:5px 10px;
+    background-color:#c4d7e0;
+    border-radius:5px;
+    font-size:16px;
+}

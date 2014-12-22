@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="filmes">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.css">
+<script src="./vendor/angular/angular.js"></script>
+<script src="./vendor/angular/angular-resource.js"></script>
+<script src="./vendor/angular/angular-route.js"></script>
+<script src="./main.js"></script>
+<title>Gerenciamento de Filmes</title>
+</head>
+<body ng-controller="FilmesController">
+
+<h1>Principal</h1>
+
+<a ng-href="#/ator">Ator</a>
+<a ng-href="#/filmes">Filmes</a>
+
+
+<button type="button" ng-click="adicionar()" >ADD</button>
+
+<ng-view></ng-view>
+
+
+</body>
+
+</html>
