@@ -23,16 +23,6 @@
           <version>1.1.1</version>
           <configuration>
             <assembleDirectory>target</assembleDirectory>
-            <programs>
-                <program>
-                    <mainClass>WorkerProcess</mainClass>
-                    <name>worker</name>
-                </program>
-                <program>
-                    <mainClass>OneOffProcess</mainClass>
-                    <name>oneoff</name>
-                </program>
-            </programs>
           </configuration>
           <executions>
               <execution>
